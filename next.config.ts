@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages用の設定
-  basePath: process.env.NODE_ENV === 'production' ? '/atrism' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/atrism/' : '',
   // 静的エクスポート用の設定
   distDir: 'out',
 };
