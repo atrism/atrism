@@ -2,15 +2,13 @@
   "name": "atrism",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/atrism",
+  "homepage": "https://atrism.github.io/atrism",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export",
-    "deploy": "npm run build && wrangler deploy",
-    "deploy:staging": "npm run build && wrangler deploy --env staging",
     "deploy:github": "npm run build && touch out/.nojekyll"
   },
   "dependencies": {
@@ -27,7 +25,6 @@
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
-    "@eslint/eslintrc": "^3",
-    "wrangler": "^3.0.0"
+    "@eslint/eslintrc": "^3"
   }
 }

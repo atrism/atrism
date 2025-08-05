@@ -2,7 +2,7 @@
 
 # Atrism - Cloudflare Workers デプロイスクリプト
 
-echo "🚀 Atrism デプロイを開始します..."
+echo "🚀 Atrism Cloudflare Workers デプロイを開始します..."
 
 # 依存関係のインストール
 echo "📦 依存関係をインストール中..."
@@ -16,5 +16,6 @@ npm run build
 echo "☁️ Cloudflare Workersにデプロイ中..."
 npx wrangler deploy
 
-echo "✅ デプロイが完了しました！"
-echo "🌐 サイトURL: https://atrism.com" 
+echo "✅ Cloudflare Workers デプロイが完了しました！"
+echo "🌐 サイトURL: https://atrism.com"
+echo "📧 お問い合わせ: info@atrism.com" 
