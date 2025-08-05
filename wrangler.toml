@@ -1,0 +1,15 @@
+name = "atrism"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./out"
+
+[env.production]
+name = "atrism"
+route = "atrism.com/*"
+zone_id = "your-zone-id"
+
+[env.staging]
+name = "atrism-staging"
+route = "staging.atrism.com/*"
+zone_id = "your-zone-id" 
