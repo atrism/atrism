@@ -31,9 +31,10 @@ __turbopack_context__.s({
     "default": ()=>__TURBOPACK__default__export__
 });
 const config = {
-    plugins: [
-        "@tailwindcss/postcss"
-    ]
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {}
+    }
 };
 const __TURBOPACK__default__export__ = config;
 }),
